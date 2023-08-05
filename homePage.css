@@ -1,24 +1,25 @@
 #Title {
     margin: auto;
+    padding: 1vw;
     font-family:'Trebuchet MS';
     text-align: center;
     color:rgb(115, 30, 30);
-    font-size: 40px;
+    font-size: 2vw;
     z-index: 2;
     background-color: rgb(20, 50, 120);
     border-radius: 40px;
-    height: 200px;
-    width: 500px;
+    height: 20vh;
+    width: 50vw;
 }
 #TitleShadow {
     margin: auto;
     position: relative;
     text-align: center;
     font-family:'Trebuchet MS';
-    top: -195px;
+    top: -21.5vh;
     left: 5px;
     color:rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 2vw;
     z-index: 2;
     width: 500px;
 }
@@ -32,11 +33,12 @@ body {
 }
 #Description {
     position: relative;
-    top: -45%;
+    top: -15%;
     font-family:'Courier New';
+    font-size: 1vw;
     color: beige;
-    margin: 20vw;
-    padding: 5px;
+    margin: 5vw;
+    padding: 1vw;
     text-align: center;
     background-color: rgb(20, 50, 120);
     border-radius: 40px;
@@ -52,7 +54,7 @@ body {
 }
 #NavBar {
     position: relative;
-    top: -55%;
+    top: -25%;
     font-family: 'Lucida Sans';
     font-size: 2vw;
     color:bisque;
