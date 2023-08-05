@@ -1,27 +1,17 @@
 #Title {
+    position: relative;
     margin: auto;
     padding: 1vw;
     font-family:'Trebuchet MS';
     text-align: center;
-    color:rgb(115, 30, 30);
-    font-size: 2vw;
+    color:rgb(255, 255, 255);
+    font-size: 3vw;
     z-index: 2;
     background-color: rgb(20, 50, 120);
     border-radius: 40px;
-    height: 20vh;
+    height: 15vw;
     width: 50vw;
-}
-#TitleShadow {
-    margin: auto;
-    position: relative;
-    text-align: center;
-    font-family:'Trebuchet MS';
-    top: -21.5vh;
-    left: 5px;
-    color:rgb(255, 255, 255);
-    font-size: 2vw;
-    z-index: 2;
-    width: 500px;
+    text-shadow: -0.5vw -0.5vw 2px rgb(115, 30, 30);
 }
 h1 {
     text-align: center;
@@ -33,9 +23,8 @@ body {
 }
 #Description {
     position: relative;
-    top: -15%;
     font-family:'Courier New';
-    font-size: 1vw;
+    font-size: 15px;
     color: beige;
     margin: 5vw;
     padding: 1vw;
@@ -54,7 +43,6 @@ body {
 }
 #NavBar {
     position: relative;
-    top: -25%;
     font-family: 'Lucida Sans';
     font-size: 2vw;
     color:bisque;
