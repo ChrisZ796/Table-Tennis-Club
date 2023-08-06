@@ -18,3 +18,33 @@ function dropInElementbyID(elementID) {
         }
     }
 }
+
+let pingPongBall = document.getElementById("ball");
+let Xpos = Math.random() * 100;
+let Ypos = Math.random() * 100;
+let Xincrease = Math.random();
+let Yincrease = Math.random();
+
+let movement = setInterval(moveBall, 3);
+function moveBall() {
+    Xpos += Xincrease;
+    Ypos += Yincrease;
+    pingPongBall.style.left = Xpos + "px";
+    pingPongBall.style.bottom = Ypos + "px";
+    if (Xpos > window.innerWidth - 80)
+    {
+        Xincrease *= -1;
+    }
+    if (Xpos < 0)
+    {
+        Xincrease *= -1;
+    }
+    if (Ypos > window.innerHeight + 150)
+    {
+        Yincrease *= -1;
+    }
+    if (Ypos < -150)
+    {
+        Yincrease *= -1;
+    }
+}
